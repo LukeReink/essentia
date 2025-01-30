@@ -9,6 +9,6 @@ Version: 51.22.1
 Requires: 
 Requires.private: 
 Conflicts:
-Libs: -L${libdir} -lavutil 
+Libs: -L${libdir}  -lavutil -lm -lX11 -lvdpau -lva-drm -lva-x11 -lva
 Libs.private: -lm
 Cflags: -I${includedir}
